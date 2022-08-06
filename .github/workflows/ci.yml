@@ -30,7 +30,7 @@ jobs:
       - name: Report image
         with:
           CF_IMAGE: ${{ env.CF_IMAGE }}
-          CF_HOST: "https://mr-62e17fb0fb8729e7c55c38f8-9a134c4.cf-cd.com"
+          CF_HOST: "https://mr-62eeb32773e4756f2ed055d0-363f440.cf-cd.com"
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           CF_CONTAINER_REGISTRY_INTEGRATION: "dockerhub"
           CF_JIRA_INTEGRATION: "jira"
